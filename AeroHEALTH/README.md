@@ -1,35 +1,46 @@
-# AeroHealth Ultimate Advanced - Images Directory
+AeroHEALTH
+AeroHEALTH is an advanced air quality monitoring and health advisory web application built for the NASA Space Apps Challenge 2025. It integrates real-time NASA satellite data, artificial intelligence, and personalized health recommendations to provide comprehensive atmospheric intelligence for 500+ Indian cities.
 
-## 🌌 Space Background Setup
+Features
+3D NASA Satellite Globe: Interactive Earth visualization with real-time Terra, Aqua, Landsat, and ISS orbits
 
-**IMPORTANT**: Place your space-star background image here for the ultimate cosmic experience!
+Ultra AI Assistant: Natural language queries for any Indian city, instant comparisons, forecasts, and NASA data insights
 
-### Required Image:
-- **Filename**: `space-stars.jpg`
-- **Source**: Your uploaded file `stock-photo-star-sky-art-stars-colored-black-night-sky-form-art.jpg`
-- **Usage**: Main background for the space-themed interface
+500+ Cities Prediction Engine: 7-day air quality forecasts with weather impact analysis
 
-### Setup Instructions:
-1. Copy your space-star image: `stock-photo-star-sky-art-stars-colored-black-night-sky-form-art.jpg`
-2. Rename it to: `space-stars.jpg`
-3. Place it in this `images/` directory
-4. The cosmic interface will automatically use this as the background!
+Personalized Health Recommendations: Individual health profiles and condition-specific guidance
 
-### Image Specifications:
-- **Recommended Size**: 1920x1080 or higher
-- **Format**: JPG (for performance)
-- **Content**: Starfield, nebula, or cosmic background
-- **Color Scheme**: Dark space themes work best
+NASA Data Integration: MODIS AOD, Landsat imagery, EPIC full-disk views, ISS photography, and NASA POWER meteorological data
 
-### Fallback:
-If no image is provided, the system will use CSS gradients as fallback, but the space image creates a much more immersive experience!
+Installation
+Clone the repository:
 
-## 🎨 Additional Assets
+bash
+git clone https://github.com/your-org/aerohealth.git
+cd aerohealth
+Open AeroHEALTH-ACTUALLY-WORKING.html in any modern web browser.
 
-This directory can also contain:
-- Icons and logos
-- UI graphics
-- Additional background images
-- Visual assets for the advanced interface
+Usage
+Activate Globe: Click “Activate Globe” to load the 3D Earth model.
 
-The space-themed design is optimized to work beautifully with cosmic backgrounds!
+Toggle Orbits: Use “Toggle Orbits” to show or hide satellite paths.
+
+Focus India: Click “Focus India” to zoom into Indian region.
+
+Dashboard: View live AOD and AQI metrics.
+
+AI Chat: Ask any air quality or health question in the chat interface.
+
+Cities: Explore, filter, and select from 500+ Indian cities for detailed data.
+
+Customization
+Logo: Replace logo-img background or emoji in CSS for your own branding.
+
+Cities Database: Edit cities array in JavaScript to add or remove cities.
+
+Thresholds: Adjust AQI thresholds and health recommendation logic in updateHealthRecommendations().
+
+Technology Stack
+Frontend: HTML5, CSS3, JavaScript (ES6+), WebGL for 3D globe
+
+Data Sources: NASA APIs (MODIS, Landsat, EPIC/DSCOVR, NASA POWER
