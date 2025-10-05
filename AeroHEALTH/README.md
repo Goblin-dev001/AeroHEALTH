@@ -12,14 +12,6 @@ Personalized Health Recommendations: Individual health profiles and condition-sp
 
 NASA Data Integration: MODIS AOD, Landsat imagery, EPIC full-disk views, ISS photography, and NASA POWER meteorological data
 
-Installation
-Clone the repository:
-
-bash
-git clone https://github.com/your-org/aerohealth.git
-cd aerohealth
-Open AeroHEALTH-ACTUALLY-WORKING.html in any modern web browser.
-
 Usage
 Activate Globe: Click “Activate Globe” to load the 3D Earth model.
 
